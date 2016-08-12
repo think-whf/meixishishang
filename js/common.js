@@ -4,10 +4,10 @@ $(function(){
 	var $link = $('.fousUs_link');
 	$fousUs.hover(function(){
 		$link.show();
-		$fousUs.find('span').css({background:"url('./css/img/headico.png') no-repeat -20px -15px"});
+		$fousUs.find('span').css({background:"url('/meixi/css/img/headico.png') no-repeat -20px -15px"});
 	},function(){
 		$link.hide();
-		$fousUs.find('span').css({background:"url('./css/img/headico.png') no-repeat 0 -15px"});
+		$fousUs.find('span').css({background:"url('/meixi/css/img/headico.png') no-repeat 0 -15px"});
 	});
 	//shoppingCart
 	var $cart = $('.shoppingCart');
@@ -129,7 +129,7 @@ function git(){
 $(function(){
 	var $cartList = $('.cartList');
 	$cartList.on("click",function(){
-		window.location.href="/html/shopping-cart.html"; 
+		window.location.href="html/shopping-cart.html"; 
 	});
 });
 
